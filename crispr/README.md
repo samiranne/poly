@@ -1,0 +1,8 @@
+ - A struct to hold information about the target and the CAS protein being used.
+ - A substruct to hold information about the CAS protein (PAM, references, functionality (cut, tag))
+ - Maybe a small embedded DB of common CAS variants and their properties.
+ - A basic heuristic for determining the viability of a potential gRNA candidate. This should include:
+ -- Checking for off-target hits in the target organism
+ -- Checking that the gRNA itself can be synthesized
+ -- Checking that gRNA GC content is within the 40-80% range.
+ -- sgRNA should be between 17-24 nucleotides
