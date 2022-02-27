@@ -24,3 +24,7 @@ print(result.read())
 ```
 
 It might be worth pulling this functionality from Python directly rather than trying to re-implement it in Go? 
+
+
+
+Spreadsheet with CAS info: https://docs.google.com/spreadsheets/d/1sl7xRxUueIf_c77jnliS7tTwLaM83zVcV30Xj8y_36c/edit?usp=sharing
